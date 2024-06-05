@@ -1,0 +1,63 @@
+.site-layout-header {
+    background: #001529; /* Change to your desired color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .site-layout-content {
+    background: #fff;
+    padding: 24px;
+    margin: 24px 16px;
+    min-height: 280px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ant-menu-horizontal {
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ant-menu-item {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  
+  .ant-menu-item:hover, .ant-menu-item-selected {
+    border-bottom: 2px solid #1890ff !important;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .dashboard-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  .loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .ant-card {
+    height: 100%;
+  }
+  
+  .ant-card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  
+  .ant-card-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
